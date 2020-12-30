@@ -234,7 +234,7 @@ let attackingType;
     let img = document.createElement("img");
     img.src = "img/icon_type_" + i + "_on.svg";
     img.style =
-      "display: block; width: 48px; height: 48px; margin: 0 auto 8px;";
+      "display: block; width: 48px; height: 48px; margin: 0 auto 8px; -webkit-appearance: none;";
     button.appendChild(img);
 
     let label = document.createElement("span");
@@ -242,7 +242,6 @@ let attackingType;
     button.appendChild(label);
 
     attackingButtons.appendChild(button);
-    attackingButtons.appendChild;
   }
 
   // リセットボタン

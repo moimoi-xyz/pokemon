@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+
+<head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>タイプ相性クイズ</title>
+    <link rel="stylesheet" href="./type_effectiveness.css">
+    <script type="module" src="./type_effectiveness.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>タイプ相性クイズ</h1>
+    </header>
+    <main>
+        <div class="wrapper">
+            <section>
+                <div>
+                    <p>
+                        <span>あいては</span>
+                        <img id="defending-img" style="display: inline-block; width: 40px; height: 40px;">
+                        <span id="defending-label"></span>
+                    </p>
+                    <p>
+                    <span>どのタイプのわざでこうげきする？</span>
+                    </p>
+                </div>
+                <div id="attacking-buttons" style="display: inline-flex; flex-wrap: wrap; justify-content: center;"></div>
+                <div id="result" style="font-size: 2rem;"></div>
+                <div><button id="reset-button">つぎのもんだい</button></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright"><small>&copy; moimoi.</small></p>
+    </footer>
+</body>
+
+</html>

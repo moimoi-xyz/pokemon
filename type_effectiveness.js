@@ -234,7 +234,7 @@ let attackingType;
     let img = document.createElement("img");
     img.src = "img/icon_type_" + i + "_on.svg";
     img.style =
-      "display: block; width: 48px; height: 48px; margin: 0 auto 8px; -webkit-appearance: none;";
+      "display: block; width: 48px; height: 48px; margin: 0 auto 8px;";
     button.appendChild(img);
 
     let label = document.createElement("span");

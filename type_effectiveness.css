@@ -104,8 +104,8 @@ button {
   padding: 8px;
   border-radius: 0;
   -webkit-box-sizing: content-box;
-  -webkit-appearance: button;
-  appearance: button;
+  -webkit-appearance: none;
+  appearance: none;
   border: none;
   box-sizing: border-box;
   cursor: pointer;
